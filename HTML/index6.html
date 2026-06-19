@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Koulen&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           
+        }
+        .box{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* background-color:pink; */
+            padding: 10px 30px;
+          
+        }
+        .box ul {
+            list-style: none;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            gap:40px;
+            color: gray;
+            /* background-color: aqua; */
+            font-size: 20px;
+
+        }
+        .box > .nav{
+            /* background-color: aqua; */
+            width: 100px;
+            height: 70px;
+            /* text-align: left;
+            left: 200px; */
+        }
+        .box > .nav > img{
+            position: relative;
+            top: -25px;
+            width: 150px;
+            height: 120px;
+            /* margin-right: 20px; */
+            left: 100px;
+        }
+
+        .box .icon{
+            position: relative;
+            top: 4px;
+            text-align: right;
+            right: 20px;  
+            color: gray;
+            
+        }
+        .box > .container > button {
+            display: flex;
+            width: 130px;
+            height: 45px;
+            border-radius: 30px;
+            gap: 7px;
+            border: none;
+            padding: 10px 15px;
+            align-items: center;
+            /* background-color: aqua; */
+            position: absolute;
+            top: 15px;
+            color: gray;
+            text-align: right;
+            right: 150px;
+            
+        }
+        .box > .container > button > .logo{
+            width: 30px;
+            height: 30px;
+            border-radius: 300px;
+            background-color: aqua;
+            margin-top: 5px;
+          
+        }
+         .box > .container > button  > h5{
+            color: rgb(34, 33, 33);
+            font-size: 17px;
+            font-family: "Battambang", system-ui;
+            margin-top: 5px;
+
+         }
+
+    </style>
+    
+</head>
+<body>
+    <div class="box">
+        
+        <nav class="nav">
+        <img src="wb-logo (1).svg" alt="">
+        </nav>
+
+            <ul>
+                <li>Personal</li>
+                <li>Business</li>
+                <li>Company</li>
+                <li>Wing bank App </li>
+            </ul>
+
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="container">
+            <button>
+
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/960px-Flag_of_Cambodia.svg.png" alt="">
+
+                <h5 class="h5">ភាសាខ្មែរ</h5>
+           </button>
+
+        </div>
+        
+    </div>
+
+   
+</body>
+</html>

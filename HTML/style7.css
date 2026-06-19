@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.box{
+    width:400px;
+    background:#fff;
+    margin:80px auto;
+    padding:70px;
+    box-shadow:0 0 8px #ccc;
+}
+
+h2{
+    margin-bottom:20px;
+}
+p{
+    color: gray;
+    font-size: 15px;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin-right: 20px;
+    margin-bottom:2px;
+    
+}
+input[type="checkbox"] {
+    width: auto;
+    
+}
+.Remember{
+    display: flex;
+    align-items: center;
+    /* margin-right: 100px; */
+    /* gap: -2px; */
+    /* justify-content: center; */
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+a{
+    color:blue;
+    text-decoration:none;
+}
