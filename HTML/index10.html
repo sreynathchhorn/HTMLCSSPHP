@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Assignment</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .navbar{
+        background-color: grey;
+        position: relative;
+        width: 100%;
+        /* padding: 15px 40px; */
+        height: 50%;
+       
+         
+        }
+        .navbar h2{
+         
+            position: relative;
+            left: 20px;
+        }
+        .navbar .menu {
+            display: flex;
+            gap: 70px;
+            position: relative;
+            left: 900px;
+            top: -15px;
+        }
+        .navbar .menu a{
+            text-decoration: none;
+            color: aliceblue;
+
+        }
+        .hero{
+            background-color: whitesmoke;
+            width: 100%;
+            height: 17vh;
+        }
+        .hero .hero-text{
+           
+            width: 100%;
+            height: 15vh;
+            position: relative;
+            left: 20px;
+            
+        }
+         .hero .hero-text h1{
+            font-size: 25px;
+         }
+
+        .hero .hero-text p{
+            position: relative;
+            top: 10px;
+         
+        }
+        .hero button{
+            background-color: blue;
+            color: aliceblue;
+            position: relative;
+            top: 20px;
+            border-radius: 10px;
+            width: 80px;
+            height: 30px;
+
+        }
+        .hero .hero-image{
+            position: relative;
+            left: 1100px;
+            top: -94px;
+            background-color: rgb(244, 233, 235);
+            width: 160px;
+            height: 80px;
+            text-align: center;
+        }
+        .hero-image{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .features{
+            /* background-color: blue; */
+            width: 100%;
+            height: 20vh;
+            position: relative;
+            top: 15px;
+    
+        }
+        .features h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            
+
+        }
+        .features p{
+            display: flex;
+            flex-direction: column;
+        }
+        .feature-container{
+              gap: 100px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+              top: 10px;
+
+        }
+        .feature-container .card {
+           background-color: whitesmoke;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            height: 15vh;
+            position: relative;
+            top: 10px;
+       
+        }
+        .feature-container .card h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .feature-container .card p{
+            position: relative;
+            left: 10px;
+            top: 10px;
+
+        }
+
+
+        
+
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h2>My Website</h2>
+
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Learn Flexbox</h1>
+            <p>
+                Flexbox is a powerful CSS layout module that helps
+                align and distribute space among items efficiently.
+            </p>
+            <button class="btn">Get Started</button>
+        </div>
+
+        <div class="hero-image">
+            Image Placeholder
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="feature-container">
+            <div class="card">
+                <h3>Fast</h3>
+                <p>Build responsive layouts quickly with Flexbox.</p>
+            </div>
+
+            <div class="card">
+                <h3>Easy</h3>
+                <p>Simple syntax and powerful alignment options.</p>
+            </div>
+
+            <div class="card">
+                <h3>Responsive</h3>
+                <p>Works well on desktop, tablet, and mobile devices.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
